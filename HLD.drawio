@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="RegIntel HLD" id="0">
+    <mxGraphModel dx="1652" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#08111f;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="900" width="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#F8FAFC;fontSize=30;fontStyle=1;align=center;verticalAlign=middle;" value="RegIntel — High-Level Architecture" vertex="1">
+          <mxGeometry height="45" width="760" x="420" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#A8C7FF;fontSize=15;align=center;verticalAlign=middle;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Decision-grade regulatory intelligence layer for CDSCO workflows&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="660" x="470" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="lane1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0E1B2E;strokeColor=#284B7A;fontColor=#EAF2FF;fontSize=16;fontStyle=1;arcSize=14;verticalAlign=top;" value="Submission Sources" vertex="1">
+          <mxGeometry height="420" width="250" x="55" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="applicant" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#132943;strokeColor=#3B82F6;fontColor=#FFFFFF;fontSize=14;arcSize=14;spacing=10;" value="Applicants / Manufacturers / CROs" vertex="1">
+          <mxGeometry height="70" width="190" x="85" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="sugam" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#132943;strokeColor=#60A5FA;fontColor=#FFFFFF;fontSize=14;arcSize=14;spacing=10;" value="SUGAM Portal&#xa;Drug / Clinical Trial Submissions" vertex="1">
+          <mxGeometry height="75" width="190" x="85" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="mdonline" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#132943;strokeColor=#60A5FA;fontColor=#FFFFFF;fontSize=14;arcSize=14;spacing=10;" value="MD Online&#xa;Medical Device Submissions" vertex="1">
+          <mxGeometry height="75" width="190" x="85" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="platform" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0B1728;strokeColor=#D6B25E;fontColor=#F8FAFC;fontSize=18;fontStyle=1;arcSize=12;verticalAlign=top;" value="RegIntel Intelligence Core" vertex="1">
+          <mxGeometry height="420" width="835" x="370" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ingestion" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10233A;strokeColor=#3B82F6;fontColor=#FFFFFF;fontSize=14;fontStyle=1;arcSize=14;spacing=10;" value="1. Smart Ingestion Layer&#xa;PDFs • Scans • Forms • Metadata" vertex="1">
+          <mxGeometry height="85" width="210" x="405" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ai" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10233A;strokeColor=#3B82F6;fontColor=#FFFFFF;fontSize=14;fontStyle=1;arcSize=14;spacing=10;" value="2. Document Intelligence Engine&#xa;OCR • NLP • Classification • Extraction" vertex="1">
+          <mxGeometry height="85" width="225" x="670" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="kg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10233A;strokeColor=#D6B25E;fontColor=#FFFFFF;fontSize=14;fontStyle=1;arcSize=14;spacing=10;" value="3. Regulatory Knowledge Graph&#xa;Rules • Guidelines • Required Evidence" vertex="1">
+          <mxGeometry height="85" width="220" x="950" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="privacy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10233A;strokeColor=#22C55E;fontColor=#FFFFFF;fontSize=14;fontStyle=1;arcSize=14;spacing=10;" value="Privacy and Compliance Engine&#xa;PII / PHI Detection • Masking • Tokenisation" vertex="1">
+          <mxGeometry height="85" width="245" x="405" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="decision" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10233A;strokeColor=#D6B25E;fontColor=#FFFFFF;fontSize=14;fontStyle=1;arcSize=14;spacing=10;" value="Decision Intelligence Engine&#xa;Risk Score • Completeness • Inconsistency Flags" vertex="1">
+          <mxGeometry height="85" width="245" x="690" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="explain" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10233A;strokeColor=#A78BFA;fontColor=#FFFFFF;fontSize=14;fontStyle=1;arcSize=14;spacing=10;" value="Explainability and Audit Layer&#xa;Rule Reference • Reason Codes • Confidence" vertex="1">
+          <mxGeometry height="85" width="200" x="970" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="lane3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0E1B2E;strokeColor=#284B7A;fontColor=#EAF2FF;fontSize=16;fontStyle=1;arcSize=14;verticalAlign=top;" value="Reviewer and Governance Outputs" vertex="1">
+          <mxGeometry height="420" width="255" x="1272" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dashboard" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#132943;strokeColor=#60A5FA;fontColor=#FFFFFF;fontSize=14;fontStyle=1;arcSize=14;spacing=10;" value="Reviewer Dashboard&#xa;Case Summary • Risk View • Compliance Gaps" vertex="1">
+          <mxGeometry height="85" width="195" x="1302" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="reports" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#132943;strokeColor=#D6B25E;fontColor=#FFFFFF;fontSize=14;fontStyle=1;arcSize=14;spacing=10;" value="Structured Reports&#xa;Decision Notes • Queries • Review Packs" vertex="1">
+          <mxGeometry height="85" width="195" x="1302" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="audit" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#132943;strokeColor=#A78BFA;fontColor=#FFFFFF;fontSize=14;fontStyle=1;arcSize=14;spacing=10;" value="Audit Trail&#xa;Traceability • Logs • Rule History" vertex="1">
+          <mxGeometry height="85" width="195" x="1302" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="foundation" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#334155;fontColor=#CBD5E1;fontSize=14;fontStyle=1;arcSize=10;" value="Secure Foundation: API Gateway • Role-Based Access Control • Encryption • Monitoring • Integration Adapters" vertex="1">
+          <mxGeometry height="65" width="835" x="370" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="applicant" style="endArrow=block;html=1;rounded=0;strokeColor=#60A5FA;strokeWidth=2;" target="sugam" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="applicant" style="endArrow=block;html=1;rounded=0;strokeColor=#60A5FA;strokeWidth=2;" target="mdonline" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="sugam" style="endArrow=block;html=1;rounded=0;strokeColor=#60A5FA;strokeWidth=2;fontColor=#CFE3FF;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.002;entryY=0.363;entryDx=0;entryDy=0;entryPerimeter=0;" target="ingestion" value="&lt;font style=&quot;color: rgb(0, 0, 102); font-size: 15px;&quot;&gt;Application Data&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="228" />
+              <mxPoint x="340" y="261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="mdonline" style="endArrow=block;html=1;rounded=0;strokeColor=#60A5FA;strokeWidth=2;fontColor=#CFE3FF;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="ingestion" value="&lt;font style=&quot;color: rgb(0, 0, 102); font-size: 15px;&quot;&gt;Device Data&lt;/font&gt;">
+          <mxGeometry relative="1" x="-0.3025" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="340" y="488" />
+              <mxPoint x="340" y="294" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="ingestion" style="endArrow=block;html=1;rounded=0;strokeColor=#60A5FA;strokeWidth=2;" target="ai" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="ai" style="endArrow=block;html=1;rounded=0;strokeColor=#D6B25E;strokeWidth=2;" target="kg" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="ai" style="endArrow=block;html=1;rounded=0;strokeColor=#22C55E;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="privacy" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="783" y="360" />
+              <mxPoint x="528" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="kg" style="endArrow=block;html=1;rounded=0;strokeColor=#D6B25E;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="decision" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="360" />
+              <mxPoint x="813" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="privacy" style="endArrow=block;html=1;rounded=0;strokeColor=#D6B25E;strokeWidth=2;" target="decision" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="decision" style="endArrow=block;html=1;rounded=0;strokeColor=#A78BFA;strokeWidth=2;" target="explain" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="explain" style="endArrow=block;html=1;rounded=0;strokeColor=#60A5FA;strokeWidth=2;fontColor=#CFE3FF;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="dashboard" value="&lt;font style=&quot;color: rgb(0, 0, 102); font-size: 15px;&quot;&gt;Decision-Ready View&lt;/font&gt;">
+          <mxGeometry relative="1" x="-0.3707" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1240" y="448" />
+              <mxPoint x="1240" y="223" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="dashboard" style="endArrow=block;html=1;rounded=0;strokeColor=#D6B25E;strokeWidth=2;" target="reports" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="reports" style="endArrow=block;html=1;rounded=0;strokeColor=#A78BFA;strokeWidth=2;" target="audit" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#94A3B8;fontSize=13;align=center;verticalAlign=middle;" value="Assistive decision-support layer — reviewers remain the final authority" vertex="1">
+          <mxGeometry height="30" width="650" x="475" y="815" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Regulatory Officer Experience Flow" id="0">
+    <mxGraphModel dx="2229" dy="916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BToUs88chWqWtqHPzKpE-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="940" width="1070" x="170" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1;fontColor=#0F172A;" value="Regulatory Officer Experience Flow" vertex="1">
+          <mxGeometry height="40" width="540" x="490" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontColor=#064E3B;fontSize=14;fontStyle=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Start&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="160" x="610" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="upload" parent="1" style="shape=parallelogram;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#0284C7;fontColor=#0C4A6E;fontSize=13;fontStyle=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Upload Submission&lt;br&gt;Application + Documents&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="305" x="537.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="structure" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#4F46E5;fontColor=#1E1B4B;fontSize=13;fontStyle=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;System Auto-Structures Data&lt;br&gt;Extract • Classify • Index&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="270" x="555" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="dataset" parent="1" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#F8FAFC;strokeColor=#475569;fontColor=#0F172A;fontSize=13;fontStyle=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Structured Regulatory Dataset&lt;/font&gt;" vertex="1">
+          <mxGeometry height="72" width="250" x="930" y="292" as="geometry" />
+        </mxCell>
+        <mxCell id="gap" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#78350F;fontSize=13;fontStyle=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Compliance Gap Check&lt;br&gt;Rules • Cross-Document Validation&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="270" x="555" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="decision" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFE4E6;strokeColor=#E11D48;fontColor=#7F1D1D;fontSize=13;fontStyle=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Gaps / Risks Found?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="200" x="590" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="risk" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#9333EA;fontColor=#3B0764;fontSize=13;fontStyle=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Show Risk Score + Reasoning&lt;br&gt;Evidence • Gaps • Confidence&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="270" x="230" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="ready" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#10B981;fontColor=#064E3B;fontSize=13;fontStyle=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Show Review Summary&lt;br&gt;No Critical Gap Detected&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="270" x="880" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="reviewer" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#F1F5F9;strokeColor=#334155;fontColor=#0F172A;fontSize=13;fontStyle=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Reviewer Validates&lt;br&gt;Accept • Query • Reject • Escalate&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="270" x="555" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="audit" parent="1" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFF7ED;strokeColor=#EA580C;fontColor=#7C2D12;fontSize=13;fontStyle=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Audit Trail Logged&lt;br&gt;Reviewer Action • Timestamp • Evidence&lt;/font&gt;" vertex="1">
+          <mxGeometry height="78" width="260" x="930" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="final" parent="1" style="shape=parallelogram;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;fontColor=#1E3A8A;fontSize=13;fontStyle=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Final Regulatory Decision&lt;br&gt;Decision-Ready • Traceable&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;• Explainable&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="360" x="510" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="start" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#334155;" target="upload">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="upload" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#334155;" target="structure">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="structure" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#334155;" target="gap">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="structure" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#64748B;dashed=1;" target="dataset">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="gap" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#334155;" target="decision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="decision" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#E11D48;fontColor=#7F1D1D;fontStyle=1;" target="risk" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Yes&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="decision" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#10B981;fontColor=#064E3B;fontStyle=1;" target="ready" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;No&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="risk" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#334155;" target="reviewer">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="ready" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#334155;" target="reviewer">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="reviewer" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#334155;" target="final">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="reviewer" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#EA580C;dashed=1;" target="audit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="final" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#EA580C;dashed=1;" target="audit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
